@@ -4,18 +4,15 @@
 # Assuming mechanical reversibility, calculate W, Q, ΔU, and ΔH for each process.
 # Sketch each path on a single P V diagram.
 import matplotlib.pyplot as plt
-# %matplotlib inline
+#%matplotlib inline
 import numpy as np
 import math
 print("Enter the values of Cp and Cv as a multiple of R")
 Cp= float(input())
 Cv= float(input())
-print("Enter the initial value of temperature in Kelvin")
-T1= int(input())
-print("Enter the initial value of pressure in Bar")
-P1= int(input())
-print("Enter the final value of pressure in Bar")
-P2= int(input())
+T1= int(input("Enter the initial value of temperature in Kelvin  "))
+P1= int(input("Enter the initial value of pressure in Bar  "))
+P2= int(input("Enter the final value of pressure in Bar  "))
 print("1) Expansion by keeping volume constant:-\n")
 print("As V is constant therefore, PdV is 0. Work Done= 0\n")
 print("Calculating Final temperature by using P1/T1 = P2/T2")
